@@ -1,6 +1,6 @@
 # Task Management Dashboard
 
-A simple task managemnt dashboard to manage Tasks.
+A simple task management dashboard to manage Tasks.
 
 # To run the project locally
 
@@ -19,7 +19,7 @@ pnpm run build
 # Tech stack used
 
 - Vite + React + TS setup
-- react-router for client side routing
+- react-router for client-side routing
 - @shadcn/ui for UI components
 - tailwindcss for writing CSS
 
