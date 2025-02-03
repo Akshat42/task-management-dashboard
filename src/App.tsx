@@ -8,10 +8,10 @@ import CompletedTasks from "./pages/task-competed";
 
 function App() {
   return (
-    <>
+    <main className="w-9/12 mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Task Management Dashboard</h1>
       <TaskSummary />
-      <nav className="mb-4">
+      <nav className="mb-4 text-center">
         <Button asChild className="mr-2">
           <Link to="/">All Tasks</Link>
         </Button>
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<TaskHome />} />
         <Route path="/completed" element={<CompletedTasks />} />
       </Routes>
-    </>
+    </main>
   );
 }
 
